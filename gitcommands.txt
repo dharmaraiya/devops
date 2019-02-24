@@ -1,0 +1,41 @@
+git init
+   25  yum instal git -y
+   26  yum install git -y
+   27  git init
+   31  git status
+   32  git add linuxcommands.txt 
+   33  git status
+   34  git commit -m "my first commit"
+   35  git status
+   36  git remote add origin https://github.com/dharmaraiya/devops.git
+   37  git push -u origin master
+   38  history | grep git
+
+
+
+GIT Hub
+
+#mkdir -p devops (Create on Linux)
+
+mkdir -p /opt/devops && cd /opt/devops/   # create and chnage directory
+
+Install git
+yum git install -y
+
+git init (create default local repository)
+
+create logical area
+1.Untracked Area  ---      git add (to Move file to Commit Area)
+2.Commit Area  ---         git commit  
+3. Repository Area --
+
+
+#history  (it will show all executed commands)
+Now create one text file called linuxcommands and save with vi
+
+#git status  ()
+
+[root@ip-172-31-39-233 devops]# git remote add origin https://github.com/dharmaraiya/devops.git
+[root@ip-172-31-39-233 devops]# git push -u origin master
+
+Authenticate with GIT Hub account
