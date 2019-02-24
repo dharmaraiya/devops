@@ -1,0 +1,30 @@
+[root@ip-172-31-39-233 devops]# history
+    1  sudo yum tree -y
+    2  sudo yum tree -y
+    3  tree
+    4  yum install tree -y
+    5  tree
+    6  rpm -qa | grep tree
+    7  ls
+    8  ls -lrq
+    9  cd /root/.ssh/
+   10  pwd
+   11  ls
+   12  ls -llrt
+   13  vi authorized_keys
+   14  vi authorized_keys
+   15  vi authorized_keys
+   16  cat authorized_keys 
+   17  cd /opt
+   18  vi abc.txt
+   19  cat abc.txt
+   20  mkdir -p devops
+   21  ls
+   22  cd ..
+   23  mkdir -p /opt/devops && cd /opt/devops/
+   24  git init
+   25  yum instal git -y
+   26  yum install git -y
+   27  git init
+   28  history
+
